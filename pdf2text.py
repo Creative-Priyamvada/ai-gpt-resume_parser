@@ -13,13 +13,3 @@ def pdf_to_text(pdf_path):
             text += page.extract_text()
     
     return text
-'''
-# Provide the path to your PDF file
-pdf_path = "/Users/priyamvada./Documents/resume-parser-v2/4042431_rajat_sharma.pdf"
-
-# Call the function to extract text from the PDF
-extracted_text = pdf_to_text(pdf_path)
-
-# Print the extracted text
-print(extracted_text)
-'''
